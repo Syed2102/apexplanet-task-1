@@ -1,17 +1,31 @@
-# ApexPlanet Data Analytics Internship
+# ApexPlanet Data Analytics Internship – Task 1
 
-## Project: Superstore Sales Analysis
+## Data Cleaning and Exploratory Data Analysis (EDA)
 
-This repository contains the data analytics tasks completed as part of the ApexPlanet Data Analytics Internship, using the Superstore Sales dataset.
+### 📌 Project Overview
+This project was completed as part of the **ApexPlanet Software Pvt. Ltd. Data Analytics Internship**.
 
----
+The objective of Task 1 was to perform data cleaning and Exploratory Data Analysis (EDA) on the Superstore Sales dataset to identify trends, patterns, relationships, and meaningful business insights.
 
-# Task 1: Exploratory Data Analysis (EDA)
+### 🎯 Objectives
+- Understand the dataset structure and variables.
+- Identify and handle missing values and duplicate records.
+- Perform data cleaning and preprocessing.
+- Analyze sales, profit, customer, and product information.
+- Identify trends, patterns, and anomalies.
+- Generate meaningful insights using data visualization.
 
-## Overview
-Task 1 focuses on understanding, cleaning, and exploring the Superstore Sales dataset to identify patterns, trends, and useful business insights.
+### 📂 Dataset
+**Dataset:** Superstore Sales Dataset
 
-## Tools and Technologies
+The dataset contains information about:
+- Orders and shipping details
+- Customers and customer segments
+- Product categories and sub-categories
+- Sales, quantity, discounts, and profit
+- Regions, states, and cities
+
+### 🛠️ Tools & Technologies
 - Python
 - Pandas
 - NumPy
@@ -19,103 +33,65 @@ Task 1 focuses on understanding, cleaning, and exploring the Superstore Sales da
 - Seaborn
 - Jupyter Notebook
 
-## Objectives
-- Understand the dataset structure.
-- Identify and handle missing values.
-- Perform data cleaning.
-- Analyze data types and statistical summaries.
-- Explore trends, patterns, and anomalies.
-- Create visualizations to understand sales performance.
+### 🔍 Tasks Performed
 
-## EDA Activities
-1. Data Loading and Inspection
-2. Data Cleaning and Preprocessing
-3. Missing Value Analysis
-4. Descriptive Statistical Analysis
-5. Exploratory Data Analysis
-6. Data Visualization
-7. Identification of Trends and Patterns
+#### 1. Data Understanding
+- Inspected dataset dimensions and column names.
+- Identified data types.
+- Examined statistical summaries.
 
----
+#### 2. Data Cleaning
+- Checked for missing values.
+- Checked for duplicate records.
+- Reviewed data types and data consistency.
+- Prepared the dataset for analysis.
 
-# Task 2: Python and SQL Integration
+#### 3. Exploratory Data Analysis
+- Analyzed sales and profit performance.
+- Explored product categories and sub-categories.
+- Examined customer and regional sales patterns.
+- Identified trends and potential business opportunities.
 
-## Overview
-This task integrates Python with an SQLite database using SQLAlchemy and Pandas to perform SQL-based analysis and visualize business insights.
+#### 4. Data Visualization
+Created visualizations to understand:
+- Sales distribution
+- Category-wise sales
+- Customer performance
+- Regional trends
+- Relationships between sales and profit
 
-## Tools and Technologies
-- Python
-- SQLite
-- SQLAlchemy
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-- VS Code
+### 📊 Key Learning Outcomes
+- Improved Python data analysis skills.
+- Learned data cleaning and preprocessing techniques.
+- Gained practical experience with Pandas and NumPy.
+- Developed data visualization skills.
+- Learned how to extract business insights from datasets.
 
-## Objectives
-- Connect Python with an SQLite database.
-- Execute SQL queries using Pandas.
-- Analyze sales and profit.
-- Identify top customers and products.
-- Understand monthly and regional sales trends.
-- Create visualizations for business insights.
-
-## Analysis Performed
-1. Total Sales and Profit Analysis
-2. Category-wise Sales Analysis
-3. Monthly Sales Trend
-4. Regional Sales Analysis
-5. Top 10 Customers by Sales
-6. Top 10 Products by Sales
-7. Sales vs Profit Analysis
-8. Sales Distribution Analysis
-
-## Visualizations
-- Sales by Category
-- Top 10 Customers
-- Monthly Sales Trend
-- Regional Sales
-- Sales vs Profit
-- Sales Distribution
-
----
-
-# Project Structure
+### 📁 Project Structure
 
 ```text
-apexplanet-data-analytics/
+ApexPlanet-Task-1-EDA/
+│
 ├── data/
-├── scripts/
-│   └── ecommerce-sales-insights-v5-sql-sqlite.sql
+│   └── Superstore dataset
+│
 ├── notebooks/
-│   └── python_sql_integration.ipynb
-├── visualizations/
-│   ├── sales_by_category.png
-│   ├── top_10_customers.png
-│   ├── monthly_sales_trend.png
-│   ├── regional_sales.png
-│   ├── sales_vs_profit.png
-│   └── sales_distribution.png
-├── python_sql_integration.py
-├── superstore.db
-└── README.md
+│   └── 01_exploritory_data_analysis.ipynb
+│
+├── README.md
+└── .gitignore
 ```
 
+### 👨‍💻 Author
+**Mohammad Faiz**
+
+Data Analytics Intern | Aspiring Data Analyst
+
+GitHub: [Syed2102](https://github.com/Syed2102)
+
+### 🙏 Acknowledgement
+Thanks to **ApexPlanet Software Pvt. Ltd.** for providing this internship opportunity and helping me gain practical experience in Data Analytics.
+
 ---
 
-# Key Learning Outcomes
-- Data cleaning and preprocessing
-- Exploratory Data Analysis
-- Python programming for analytics
-- SQL query writing
-- Python and SQL integration
-- Data visualization
-- Business insight generation
-
----
-
-# Internship
-**ApexPlanet Data Analytics Internship**
-
-# Author
-Mohammad Faiz
+⭐ This project is part of my Data Analytics learning journey.
